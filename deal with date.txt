@@ -1,0 +1,55 @@
+[{"§ñ§ß§Ó§Ñ§â§ñ": "January"}, {"§æ§Ö§Ó§â§Ñ§Ý§ñ": "February"}, {"§Þ§Ñ§â§ä§Ñ": "March"}, {"§Ñ§á§â§Ö§Ý§ñ": "April"}, {"§Þ§Ñ§ñ": "May"}, {"§Ú§ð§ß§ñ": "June"}, {"§Ú§ð§Ý§ñ": "July"}, {"§Ñ§Ó§Ô§å§ã§ä§Ñ": "August"}, {"§ã§Ö§ß§ä§ñ§Ò§â§ñ": "September"}, {"§à§Ü§ä§ñ§Ò§â§ñ": "October"}, {"§ß§à§ñ§Ò§â§ñ": "November"}, {"§Õ§Ö§Ü§Ñ§Ò§â§ñ": "December"}]
+
+"January": 1, 
+"February": 2, 
+"March": 3, 
+"April": 4, 
+"May": 5, 
+"June": 6, 
+"July": 7, 
+"August": 8, 
+"September": 9, 
+"October": 10, 
+"November": 11, 
+"December": 12, 
+
+
+"January"
+"February"
+"March"
+"April"
+"May"
+"June"
+"July"
+"August"
+"September"
+"October"
+"November"
+"December"
+
+{"January": "§ñ§ß§Ó§Ñ§â§ñ", "February": "§æ§Ö§Ó§â§Ñ§Ý§ñ", "March": "§Þ§Ñ§â§ä§Ñ", "April": "§Ñ§á§â§Ö§Ý§ñ", "May": "§Þ§Ñ§ñ", "June": "§Ú§ð§ß§ñ", "July": "§Ú§ð§Ý§ñ", "August": "§Ñ§Ó§Ô§å§ã§ä§Ñ", "September": "§ã§Ö§ß§ä§ñ§Ò§â§ñ", "October": "§à§Ü§ä§ñ§Ò§â§ñ", "November": "§ß§à§ñ§Ò§â§ñ", "December": "§Õ§Ö§Ü§Ñ§Ò§â§ñ"}
+
+
+month_model = [["§ñ§ß§Ó§Ñ§â§ñ", "January"], ["§æ§Ö§Ó§â§Ñ§Ý§ñ", "February"], ["§Þ§Ñ§â§ä§Ñ", "March"], ["§Ñ§á§â§Ö§Ý§ñ", "April"], ["§Þ§Ñ§ñ", "May"], ["§Ú§ð§ß§ñ", "June"], ["§Ú§ð§Ý§ñ", "July"], ["§Ñ§Ó§Ô§å§ã§ä§Ñ", "August"], ["§ã§Ö§ß§ä§ñ§Ò§â§ñ", "September"], ["§à§Ü§ä§ñ§Ò§â§ñ", "October"], ["§ß§à§ñ§Ò§â§ñ", "November"], ["§Õ§Ö§Ü§Ñ§Ò§â§ñ", "December"]]
+birthday = "March"
+for month_model_one in month_model:
+    birthday = birthday.replace(month_model_one[1],month_model_one[0])
+print(birthday)
+
+                        birthday = item_info.split(',')[0]
+                        month_model = [["§ñ§ß§Ó§Ñ§â§ñ", "January"], ["§æ§Ö§Ó§â§Ñ§Ý§ñ", "February"], ["§Þ§Ñ§â§ä§Ñ", "March"],
+                                       ["§Ñ§á§â§Ö§Ý§ñ", "April"], ["§Þ§Ñ§ñ", "May"], ["§Ú§ð§ß§ñ", "June"], ["§Ú§ð§Ý§ñ", "July"],
+                                       ["§Ñ§Ó§Ô§å§ã§ä§Ñ", "August"], ["§ã§Ö§ß§ä§ñ§Ò§â§ñ", "September"], ["§à§Ü§ä§ñ§Ò§â§ñ", "October"],
+                                       ["§ß§à§ñ§Ò§â§ñ", "November"], ["§Õ§Ö§Ü§Ñ§Ò§â§ñ", "December"]]
+                        for month_model_one in month_model:
+                            birthday = birthday.replace(month_model_one[1], month_model_one[0])
+
+[{"§ñ§ß§Ó§Ñ§â§ñ": "January"}, {"§æ§Ö§Ó§â§Ñ§Ý§ñ": "February"}, {"§Þ§Ñ§â§ä§Ñ": "March"}, {"§Ñ§á§â§Ö§Ý§ñ": "April"}, {"§Þ§Ñ§ñ": "May"}, {"§Ú§ð§ß§ñ": "June"}, {"§Ú§ð§Ý§ñ": "July"}, {"§Ñ§Ó§Ô§å§ã§ä§Ñ": "August"}, {"§ã§Ö§ß§ä§ñ§Ò§â§ñ": "September"}, {"§à§Ü§ä§ñ§Ò§â§ñ": "October"}, {"§ß§à§ñ§Ò§â§ñ": "November"}, {"§Õ§Ö§Ü§Ñ§Ò§â§ñ": "December"}]
+
+vk:
+9 §Þ§Ñ§â§ä§Ñ 1979 §Ô.   
+March 9, 1979
+
+mailru:
+09 §Þ§Ñ§â§ä§Ñ 1979
+09 March 1979
